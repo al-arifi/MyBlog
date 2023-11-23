@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #BCA136;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="m-2 flex flex-row">
+        <div class="w-1/6 flex justify-center"><img class="rotate-180 h-16 sm:h-20 md:h-24 cursor-pointer"
+                src="./assets/navbar.png" alt=""></div>
+        <div class="w-4/6 h-16 sm:h-20 md:h-24 border-2 border-black flex flex-col justify-center">
+            <h1 class="text-3xl min-[320px]:text-4xl md:text-5xl font-bold text-center cursor-pointer">MyBlog</h1>
+        </div>
+        <div class="w-1/6 flex justify-center"><img class="h-16 sm:h-20 md:h-24 cursor-pointer"
+                src="./assets/navbar.png" alt=""></div>
+    </div>
+
+    <!-- ARTIKEL -->
+    <h1 class="m-12 text-center w-4/5 mx-auto text-3xl font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit.</h1>
+    <p class="w-4/5 mx-auto text-justify indent-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic itaque
+        corrupti architecto adipisci, atque illum cumque! Non dolorum commodi magni. Fugit, corrupti officia nihil
+        deserunt nemo a iusto culpa, in provident nesciunt mollitia at! Magnam quisquam repudiandae quis dicta, facere
+        est, harum accusamus assumenda iusto molestias suscipit, nulla amet hic vero. Assumenda consequatur nisi nobis
+        eius aspernatur neque omnis dignissimos, unde earum, repudiandae quas laudantium suscipit expedita.
+    </p>
+
+    <!-- FEEDBACK -->
+    <div class="m-8 flex justify-evenly">
+        <div class="flex">
+            <img class="h-8 cursor-pointer" src="./assets/like.png" alt="">
+            <p class="mt-2 mx-4 text-xl">78</p>
+        </div>
+        <div class="flex">
+            <img class="mt-2 h-8 cursor-pointer rotate-180 scale-x-[-1]" src="./assets/like.png" alt="">
+            <p class="mt-2 mx-4 text-xl">96</p>
+        </div>
+        <div class="flex">
+            <img class="h-10 cursor-pointer" src="./assets/share.png" alt="">
+            <p class="mt-2 ml-1 text-xl">56</p>
+        </div>
+    </div>
+
+    <form class="flex flex-col" action="">
+        <textarea class="w-4/5 mx-auto rounded-xl p-2" name="message" rows="5" cols="30"
+            placeholder="Add your comment..."></textarea>
+        <button class="w-4/5 mx-auto bg-black text-white font-bold text-2xl p-2 mt-4 mb-20 rounded-xl"
+            type="submit">send</button>
+    </form>
+
+    <!-- FOOTER -->
+    <div class="bg-black w-full ">
+        <h1 class="p-4 text-white font-semibold text-3xl text-center"> >.Thankyou.< </h1>
+                <hr>
+                <p class="p-3 text-white opacity-50 text-center text-xs">Copyright 2023 © All Rights Reserved • Designed
+                    by @hafizarifi_</p>
+    </div>
+</body>
+
+</html>
